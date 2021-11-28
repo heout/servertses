@@ -1,0 +1,35 @@
+{
+  "name": "@wisestcoder/static-server",
+  "version": "0.0.1",
+  "description": "使用node搭建静态资源服务器",
+  "main": "index.js",
+  "scripts": {
+    "dev": "supervisor bin/app.js",
+    "start": "npm run dev"
+  },
+  "bin": {
+    "server": "index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/WisestCoder/static-server"
+  },
+  "author": "",
+  "license": "ISC",
+  "homepage": "https://github.com/WisestCoder/static-server#readme",
+  "keywords": [
+    "static-server",
+    "server"
+  ],
+  "dependencies": {
+    "chalk": "^2.3.2",
+    "handlebars": "^4.0.11",
+    "mime": "^2.2.0",
+    "open": "^0.0.5",
+    "pem": "^1.12.5",
+    "yargs": "^6.6.0"
+  },
+  "devDependencies": {
+    "supervisor": "^0.12.0"
+  }
+}
